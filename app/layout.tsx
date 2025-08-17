@@ -56,6 +56,15 @@ export default function RootLayout({
   ];
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>OBEO Digital - Scale Your Ads Profitably</title>
+        <link rel="icon" type="image/png" href="/logo-removebg-preview.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo-removebg-preview.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo-removebg-preview.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo-removebg-preview.png" />
+        <meta name="description" content="Experts in Telegram Ads, Meta Ads & X Ads. Specialized in high-risk niches: betting, trading, casino, and crypto. Over 50 million views delivered — no bans, no fluff." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950`}
       >

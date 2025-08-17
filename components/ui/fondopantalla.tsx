@@ -10,20 +10,20 @@ export function GridBackgroundDemo() {
             title: "Strategy & Planning",
             content: (
                 <div className="w-full">
-                    <div className="relative h-96 w-full mb-6 rounded-2xl overflow-hidden bg-white shadow-lg">
+                    <div className="relative h-64 sm:h-80 md:h-96 w-full mb-4 sm:mb-6 rounded-xl sm:rounded-2xl overflow-hidden bg-white shadow-lg">
                         <Image
                             src="/one.png"
                             alt="Strategy & Planning"
                             layout="fill"
                             objectFit="contain"
-                            className="p-4"
+                            className="p-2 sm:p-4"
                         />
                     </div>
-                    <div className="space-y-4">
-                        <h3 className="text-2xl font-bold text-white">
+                    <div className="space-y-3 sm:space-y-4">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white">
                             Strategic Analysis
                         </h3>
-                        <p className="text-slate-200 leading-relaxed text-lg">
+                        <p className="text-slate-200 leading-relaxed text-base sm:text-lg">
                             We start by understanding your goals, target audience,
                             and market to build a{" "}
                             <span className="text-blue-400 font-semibold">
@@ -35,14 +35,14 @@ export function GridBackgroundDemo() {
                             </span>
                             .
                         </p>
-                        <div className="flex items-center gap-3 pt-2">
-                            <div className="bg-blue-500/20 px-4 py-2 rounded-full border border-blue-500/30">
-                                <span className="text-blue-300 text-sm font-medium">
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-3 pt-2">
+                            <div className="bg-blue-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-blue-500/30">
+                                <span className="text-blue-300 text-xs sm:text-sm font-medium">
                                     Market Analysis
                                 </span>
                             </div>
-                            <div className="bg-green-500/20 px-4 py-2 rounded-full border border-green-500/30">
-                                <span className="text-green-300 text-sm font-medium">
+                            <div className="bg-green-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-green-500/30">
+                                <span className="text-green-300 text-xs sm:text-sm font-medium">
                                     Data-Driven
                                 </span>
                             </div>
@@ -55,21 +55,21 @@ export function GridBackgroundDemo() {
             title: "Creative Development",
             content: (
                 <div className="w-full">
-                    <div className="relative h-80 w-full mb-6 rounded-2xl overflow-hidden shadow-lg" style={{backgroundColor: '#181818'}}>
+                    <div className="relative h-64 sm:h-80 w-full mb-4 sm:mb-6 rounded-xl sm:rounded-2xl overflow-hidden shadow-lg" style={{backgroundColor: '#181818'}}>
                         <Image
                             src="/two.png"
                             alt="Creative Development"
                             layout="fill"
                             objectFit="contain"
-                            className="p-4"
+                            className="p-2 sm:p-4"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 rounded-2xl"></div>
+                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 rounded-xl sm:rounded-2xl"></div>
                     </div>
-                    <div className="space-y-4">
-                        <h3 className="text-2xl font-bold text-white">
+                    <div className="space-y-3 sm:space-y-4">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white">
                             Compelling Creatives
                         </h3>
-                        <p className="text-slate-200 leading-relaxed text-lg">
+                        <p className="text-slate-200 leading-relaxed text-base sm:text-lg">
                             Our team designs compelling ad copy and visuals that capture
                             attention and drive action with{" "}
                             <span className="text-purple-400 font-semibold">
@@ -81,14 +81,14 @@ export function GridBackgroundDemo() {
                             </span>
                             .
                         </p>
-                        <div className="flex items-center gap-3 pt-2">
-                            <div className="bg-purple-500/20 px-4 py-2 rounded-full border border-purple-500/30">
-                                <span className="text-purple-300 text-sm font-medium">
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-3 pt-2">
+                            <div className="bg-purple-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-purple-500/30">
+                                <span className="text-purple-300 text-xs sm:text-sm font-medium">
                                     Creative Design
                                 </span>
                             </div>
-                            <div className="bg-cyan-500/20 px-4 py-2 rounded-full border border-cyan-500/30">
-                                <span className="text-cyan-300 text-sm font-medium">
+                            <div className="bg-cyan-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-cyan-500/30">
+                                <span className="text-cyan-300 text-xs sm:text-sm font-medium">
                                     High Impact
                                 </span>
                             </div>
@@ -101,20 +101,20 @@ export function GridBackgroundDemo() {
             title: "Launch & Optimization",
             content: (
                 <div className="w-full">
-                    <div className="relative h-96 w-full mb-6 rounded-2xl overflow-hidden bg-white shadow-lg">
+                    <div className="relative h-64 sm:h-80 md:h-96 w-full mb-4 sm:mb-6 rounded-xl sm:rounded-2xl overflow-hidden bg-white shadow-lg">
                         <Image
                             src="/three.png"
                             alt="Launch & Optimization"
                             layout="fill"
                             objectFit="contain"
-                            className="p-4"
+                            className="p-2 sm:p-4"
                         />
                     </div>
-                    <div className="space-y-4">
-                        <h3 className="text-2xl font-bold text-white">
+                    <div className="space-y-3 sm:space-y-4">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white">
                             Launch & Scale
                         </h3>
-                        <p className="text-slate-200 leading-relaxed text-lg">
+                        <p className="text-slate-200 leading-relaxed text-base sm:text-lg">
                             We launch your campaigns and continuously monitor performance,
                             A/B test creatives, and optimize for{" "}
                             <span className="text-yellow-400 font-semibold">
@@ -126,14 +126,14 @@ export function GridBackgroundDemo() {
                             </span>
                             .
                         </p>
-                        <div className="flex items-center gap-3 pt-2">
-                            <div className="bg-yellow-500/20 px-4 py-2 rounded-full border border-yellow-500/30">
-                                <span className="text-yellow-300 text-sm font-medium">
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-3 pt-2">
+                            <div className="bg-yellow-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-yellow-500/30">
+                                <span className="text-yellow-300 text-xs sm:text-sm font-medium">
                                     ROI Optimization
                                 </span>
                             </div>
-                            <div className="bg-orange-500/20 px-4 py-2 rounded-full border border-orange-500/30">
-                                <span className="text-orange-300 text-sm font-medium">
+                            <div className="bg-orange-500/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-orange-500/30">
+                                <span className="text-orange-300 text-xs sm:text-sm font-medium">
                                     Scalable Growth
                                 </span>
                             </div>
@@ -170,7 +170,7 @@ export function GridBackgroundDemo() {
             </div>
 
             {/* Timeline Section */}
-            <div className="relative z-10 mt-32 sm:mt-12 w-full max-w-6xl">
+            <div className="relative z-10 mt-16 sm:mt-24 md:mt-32 w-full max-w-6xl px-4 sm:px-6">
                 <Timeline data={timelineData} />
             </div>
         </div>

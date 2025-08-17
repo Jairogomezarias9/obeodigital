@@ -50,47 +50,47 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mt-16 grid grid-cols-2 gap-8 sm:grid-cols-4">
+            <div className="mt-12 sm:mt-16 grid grid-cols-2 gap-4 sm:gap-8 sm:grid-cols-4">
               <div className="text-center">
-                <p className="text-4xl sm:text-5xl font-extrabold text-blue-500">
+                <p className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-blue-500">
                   50M+
                 </p>
-                <p className="mt-2 text-lg font-medium text-slate-400">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-lg font-medium text-slate-400">
                   Views Delivered
                 </p>
               </div>
               <div className="text-center">
-                <p className="text-4xl sm:text-5xl font-extrabold text-blue-500">
+                <p className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-blue-500">
                   40+
                 </p>
-                <p className="mt-2 text-lg font-medium text-slate-400">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-lg font-medium text-slate-400">
                   Active Clients
                 </p>
               </div>
               <div className="text-center">
-                <p className="text-4xl sm:text-5xl font-extrabold text-blue-500">
+                <p className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-blue-500">
                   $100k+
                 </p>
-                <p className="mt-2 text-lg font-medium text-slate-400">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-lg font-medium text-slate-400">
                   Ad Spend Managed
                 </p>
               </div>
               <div className="text-center">
-                <p className="text-4xl sm:text-5xl font-extrabold text-blue-500">
+                <p className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-blue-500">
                   3
                 </p>
-                <p className="mt-2 text-lg font-medium text-slate-400">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-lg font-medium text-slate-400">
                   Years of Experience
                 </p>
               </div>
             </div>
             
-            <div className="mt-12 text-center">
+            <div className="mt-8 sm:mt-12 text-center">
               <a
                 href="https://t.me/obeodigital"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg shadow-blue-500/50 hover:scale-105 transition-all duration-300"
+                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base font-semibold shadow-lg shadow-blue-500/50 hover:scale-105 transition-all duration-300"
               >
                 💬 Ready to Scale? Contact Us
               </a>
@@ -144,7 +144,7 @@ export default function Home() {
                 that actually converts.
               </p>
             </div>
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="mt-12 sm:mt-16 grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-3">
               <GlowingEffect containerClassName="overflow-hidden">
                 <Image
                   src="/Telegram_logo.svg.webp"
@@ -153,9 +153,9 @@ export default function Home() {
                   objectFit="contain"
                   className="absolute top-0 bottom-0 right-0 w-1/2 z-0 opacity-10"
                 />
-                <div className="relative z-10 p-8 h-full">
-                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-500"> Telegram Ads</h3>
-                  <p className="mt-4 text-slate-600 dark:text-slate-400">
+                <div className="relative z-10 p-6 sm:p-8 h-full">
+                  <h3 className="text-lg sm:text-xl font-bold text-blue-600 dark:text-blue-500"> Telegram Ads</h3>
+                  <p className="mt-3 sm:mt-4 text-sm sm:text-base text-slate-600 dark:text-slate-400">
                     Leverage our network of whitelisted channels for targeted traffic. Our ban-resistant methods ensure your campaigns run smoothly in high-risk niches.
                   </p>
                 </div>
@@ -168,11 +168,11 @@ export default function Home() {
                   objectFit="contain"
                   className="absolute top-0 bottom-0 right-0 w-1/2 z-0 opacity-10"
                 />
-                <div className="relative z-10 p-8 h-full">
-                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-500">
+                <div className="relative z-10 p-6 sm:p-8 h-full">
+                  <h3 className="text-lg sm:text-xl font-bold text-blue-600 dark:text-blue-500">
                      Meta Ads (Facebook/Instagram)
                   </h3>
-                  <p className="mt-4 text-slate-600 dark:text-slate-400">
+                  <p className="mt-3 sm:mt-4 text-sm sm:text-base text-slate-600 dark:text-slate-400">
                     Gain access to our exclusive agency accounts and proven funnels. We turn cold traffic into performing assets, driving measurable results.
                   </p>
                 </div>
@@ -185,9 +185,9 @@ export default function Home() {
                   objectFit="cover"
                   className="absolute top-[-20%] bottom-[-20%] right-[-20%] w-[120%] z-0 opacity-10 scale-100"
                   />
-                  <div className="relative z-10 p-8 h-full">
-                  <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-500"> X Ads (Twitter)</h3>
-                  <p className="mt-6 text-lg text-slate-600 dark:text-slate-400">
+                  <div className="relative z-10 p-6 sm:p-8 h-full">
+                  <h3 className="text-lg sm:text-2xl font-bold text-blue-600 dark:text-blue-500"> X Ads (Twitter)</h3>
+                  <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400">
                   Achieve fast-volume traffic and viral growth. Our expertise in interest-based targeting and direct CPA models maximizes your reach and ROI.
                   </p>
                   </div>
@@ -313,27 +313,27 @@ export default function Home() {
               directly. Get a free, no-obligation audit.
             </p>
             
-            <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 text-left">
-              <div className="bg-slate-800/50 p-6 rounded-lg">
-                <h3 className="font-semibold text-white">✓ Free Express Audit</h3>
-                <p className="text-slate-400 mt-2 text-sm">We'll analyze your offer and funnel to identify scaling opportunities.</p>
+            <div className="mt-10 sm:mt-12 grid grid-cols-1 gap-4 sm:gap-6 md:gap-8 text-left">
+              <div className="bg-slate-800/50 p-4 sm:p-6 rounded-lg">
+                <h3 className="font-semibold text-white text-sm sm:text-base">✓ Free Express Audit</h3>
+                <p className="text-slate-400 mt-1 sm:mt-2 text-xs sm:text-sm">We'll analyze your offer and funnel to identify scaling opportunities.</p>
               </div>
-              <div className="bg-slate-800/50 p-6 rounded-lg">
-                <h3 className="font-semibold text-white">✓ Custom Strategy</h3>
-                <p className="text-slate-400 mt-2 text-sm">Receive a tailored plan designed for your specific niche and goals.</p>
+              <div className="bg-slate-800/50 p-4 sm:p-6 rounded-lg">
+                <h3 className="font-semibold text-white text-sm sm:text-base">✓ Custom Strategy</h3>
+                <p className="text-slate-400 mt-1 sm:mt-2 text-xs sm:text-sm">Receive a tailored plan designed for your specific niche and goals.</p>
               </div>
-              <div className="bg-slate-800/50 p-6 rounded-lg">
-                <h3 className="font-semibold text-white">✓ Direct Expert Access</h3>
-                <p className="text-slate-400 mt-2 text-sm">Chat directly with the specialists who will handle your campaigns.</p>
+              <div className="bg-slate-800/50 p-4 sm:p-6 rounded-lg">
+                <h3 className="font-semibold text-white text-sm sm:text-base">✓ Direct Expert Access</h3>
+                <p className="text-slate-400 mt-1 sm:mt-2 text-xs sm:text-sm">Chat directly with the specialists who will handle your campaigns.</p>
               </div>
             </div>
 
-            <div className="mt-12">
+            <div className="mt-8 sm:mt-12">
               <a
                 href="https://t.me/obeodigital"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg shadow-blue-500/50 hover:scale-105 transition-all duration-300"
+                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg shadow-blue-500/50 hover:scale-105 transition-all duration-300"
               >
                 👉 DM us on Telegram: @obeodigital
               </a>
