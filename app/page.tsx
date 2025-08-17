@@ -6,6 +6,7 @@ import { GridBackgroundDemo } from "@/components/ui/fondopantalla";
 import { motion } from "framer-motion";
 import { GlowingEffect } from "@/components/ui/cartas";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { Timeline } from "@/components/ui/liniadetiempo";
 const WorldMap = dynamic(
   () => import("../components/planeta").then((mod) => mod.WorldMap),
   { ssr: false }
@@ -22,7 +23,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="bg-gray-950 min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen">
         <GridBackgroundDemo />
@@ -82,6 +83,17 @@ export default function Home() {
                   Years of Experience
                 </p>
               </div>
+            </div>
+            
+            <div className="mt-12 text-center">
+              <a
+                href="https://t.me/obeodigital"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg shadow-blue-500/50 hover:scale-105 transition-all duration-300"
+              >
+                💬 Ready to Scale? Contact Us
+              </a>
             </div>
           </div>
           <div className="mt-16 relative">
@@ -204,11 +216,11 @@ export default function Home() {
             </div>
             <div className="relative mt-20">
               {/* Vertical line */}
-              <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-700" aria-hidden="true"></div>
+              <div className="absolute left-6 top-0 h-full w-0.5 bg-slate-700 md:left-1/2 md:-translate-x-1/2" aria-hidden="true"></div>
               <div className="space-y-16">
                 {/* Step 1 */}
-                <div className="relative flex items-center justify-start md:justify-end md:text-right">
-                  <div className="w-full md:w-1/2 md:pr-16">
+                <div className="relative flex items-center justify-start text-left md:justify-end md:text-right">
+                  <div className="w-full pl-16 md:w-1/2 md:pr-16 md:pl-0">
                     <GlowingEffect>
                       <div className="p-6 bg-slate-900/80 backdrop-blur-lg rounded-xl">
                         <h3 className="text-xl font-bold text-white">Free Express Audit</h3>
@@ -218,13 +230,13 @@ export default function Home() {
                       </div>
                     </GlowingEffect>
                   </div>
-                  <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
+                  <div className="absolute left-6 -translate-x-1/2 md:left-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
                     <span className="text-xl font-bold text-white">1</span>
                   </div>
                 </div>
                 {/* Step 2 */}
-                <div className="relative flex items-center justify-start">
-                  <div className="w-full md:w-1/2 md:pl-16">
+                <div className="relative flex items-center justify-start text-left">
+                  <div className="w-full pl-16 md:w-1/2 md:pl-16">
                     <GlowingEffect>
                       <div className="p-6 bg-slate-900/80 backdrop-blur-lg rounded-xl">
                         <h3 className="text-xl font-bold text-white">Setup in 24-48h</h3>
@@ -234,13 +246,13 @@ export default function Home() {
                       </div>
                     </GlowingEffect>
                   </div>
-                  <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
+                  <div className="absolute left-6 -translate-x-1/2 md:left-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
                     <span className="text-xl font-bold text-white">2</span>
                   </div>
                 </div>
                 {/* Step 3 */}
-                <div className="relative flex items-center justify-start md:justify-end md:text-right">
-                  <div className="w-full md:w-1/2 md:pr-16">
+                <div className="relative flex items-center justify-start text-left md:justify-end md:text-right">
+                  <div className="w-full pl-16 md:w-1/2 md:pr-16 md:pl-0">
                     <GlowingEffect>
                       <div className="p-6 bg-slate-900/80 backdrop-blur-lg rounded-xl">
                         <h3 className="text-xl font-bold text-white">Daily Optimization & Scaling</h3>
@@ -250,7 +262,7 @@ export default function Home() {
                       </div>
                     </GlowingEffect>
                   </div>
-                  <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
+                  <div className="absolute left-6 -translate-x-1/2 md:left-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-cyan-400 border-4 border-gray-950">
                     <span className="text-xl font-bold text-white">3</span>
                   </div>
                 </div>
@@ -329,6 +341,6 @@ export default function Home() {
           </div>
         </motion.section>
       </main>
-    </>
+    </div>
   );
 }

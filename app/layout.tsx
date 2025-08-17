@@ -57,12 +57,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <header className="sticky top-0 z-50 w-full p-16">
-            <nav className="container mx-auto max-w-4xl bg-white/80 backdrop-blur-sm shadow-xl rounded-full px-6 py-3 flex justify-between items-center dark:bg-slate-800/80">
-              <div className="flex-1 flex justify-start">
+          <header className="sticky top-0 z-50 w-full p-4 sm:p-6">
+            <nav className="container mx-auto max-w-4xl bg-white/80 backdrop-blur-sm shadow-xl rounded-full px-6 py-3 flex justify-center md:justify-between items-center dark:bg-slate-800/80">
+              <div className="md:flex-1 flex md:justify-start">
                 <a href="/">
                   <Image
                     src="/logo-removebg-preview.png"
@@ -74,10 +74,19 @@ export default function RootLayout({
                   />
                 </a>
               </div>
-              <div className="flex-1 flex justify-center whitespace-nowrap">
+              <div className="hidden md:flex flex-1 justify-center whitespace-nowrap">
                 {showTypewriter && <TypewriterEffect words={words} />}
               </div>
-              <div className="flex-1"></div>
+              <div className="hidden md:flex flex-1 justify-end">
+                <a
+                  href="https://t.me/obeodigital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-blue-600 to-cyan-400 text-white px-4 py-2 rounded-full text-sm font-semibold hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-500/30"
+                >
+                  💬 Contact Us
+                </a>
+              </div>
             </nav>
           </header>
           {children}
