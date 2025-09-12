@@ -140,7 +140,7 @@ export default function Home() {
                 What We Do
               </h2>
               <p className="mt-4 text-lg text-slate-400">
-                We scale channels and funnels in aggressive niches with traffic
+                We scale digital marketing campaigns and funnels with traffic
                 that actually converts.
               </p>
             </div>
@@ -156,7 +156,7 @@ export default function Home() {
                 <div className="relative z-10 p-6 sm:p-8 h-full">
                   <h3 className="text-lg sm:text-xl font-bold text-blue-600 dark:text-blue-500"> Telegram Ads</h3>
                   <p className="mt-3 sm:mt-4 text-sm sm:text-base text-slate-600 dark:text-slate-400">
-                    Leverage our network of whitelisted channels for targeted traffic. Our ban-resistant methods ensure your campaigns run smoothly in high-risk niches.
+                    Leverage our network of premium channels for targeted traffic. Our proven methods ensure your campaigns run smoothly across all verticals.
                   </p>
                 </div>
               </GlowingEffect>

@@ -154,8 +154,8 @@ export function GridBackgroundDemo() {
                 </h1>
                 <p className="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-slate-400">
                     Experts in Telegram Ads, Meta Ads & X Ads. Specialized in
-                    high-risk niches: betting, trading, casino, and crypto. Over 50
-                    million views delivered — no bans, no fluff.
+                    high-performance digital marketing campaigns. Over 50
+                    million views delivered — proven results, no fluff.
                 </p>
                 <div className="mt-8">
                     <a
