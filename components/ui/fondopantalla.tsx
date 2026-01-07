@@ -55,16 +55,7 @@ export function GridBackgroundDemo() {
             title: "Creative Development",
             content: (
                 <div className="w-full">
-                    <div className="relative h-64 sm:h-80 w-full mb-4 sm:mb-6 rounded-xl sm:rounded-2xl overflow-hidden shadow-lg" style={{backgroundColor: '#181818'}}>
-                        <Image
-                            src="/two.png"
-                            alt="Creative Development"
-                            layout="fill"
-                            objectFit="contain"
-                            className="p-2 sm:p-4"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 rounded-xl sm:rounded-2xl"></div>
-                    </div>
+
                     <div className="space-y-3 sm:space-y-4">
                         <h3 className="text-xl sm:text-2xl font-bold text-white">
                             Compelling Creatives

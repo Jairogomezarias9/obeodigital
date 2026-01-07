@@ -3,6 +3,9 @@
 import { ThemeProvider } from "next-themes";
 import { TypewriterEffect } from "@/components/ui/texto";
 import { useState, useEffect } from "react";
+import Link from "next/link";
+import Footer from "@/components/Footer";
+import CookieBanner from "@/components/CookieBanner";
 import Image from "next/image";
 
 export default function ClientLayout({
@@ -74,7 +77,9 @@ export default function ClientLayout({
                     </div>
                 </nav>
             </header>
-            {children}
+            <main>{children}</main>
+            <Footer />
+            <CookieBanner />
         </ThemeProvider>
     );
 }
